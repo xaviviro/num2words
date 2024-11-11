@@ -192,7 +192,7 @@ class Num2Word_CA(Num2Word_EU):
         lows = ["quatr", "tr", "b", "m"]
         self.high_numwords = self.gen_high_numwords([], [], lows)
         self.negword = "menys "
-        self.pointword = "coma"
+        self.pointword = "coma "
         self.errmsg_nonnum = "type(%s) no és [long, int, float]"
         self.errmsg_floatord = "El float %s no pot ser tractat com a" \
             " ordinal."
