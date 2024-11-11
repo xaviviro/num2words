@@ -253,11 +253,11 @@ class Num2Word_CA(Num2Word_EU):
         elif (not nnum % 1000000) and cnum > 1:
             ntext = ntext[:-3] + "ns"
 
-        print(nnum)
+        #print(nnum)
         if nnum == 100:
             ntext += "s"
         else:
-            print(ntext)
+            #print(ntext)
             ntext = " " + ntext
 
         return (ctext + ntext, cnum * nnum)
